@@ -1,0 +1,36 @@
+.CreditCard {
+  max-width: 400px;
+
+  .credit-card-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+
+    li {
+      float: left;
+      color: #aaa;
+      font-size: 26px;
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+
+    .active {
+      color: #666;
+    }
+  }
+
+  .alert {
+    margin-top: 20px;
+
+    h5 {
+      margin-top: 0px;
+    }
+
+    .exp-cvc {
+      margin-bottom: 5px;
+      span:first-child { margin-right: 15px; }
+    }
+  }
+}
